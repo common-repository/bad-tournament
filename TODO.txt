@@ -1,0 +1,66 @@
+KNOWN BUGS(-) / SOLVED(+)
++ Match update add new game played to player_tournament
++ All players added => empty Sslect players displayed
++ Parent tournament
++ Matches selector JS
++ Session maybe already started => conflict with shortcodes
++ Player name not editable
++ Remove match => Don't clean opponents
++ Tab navigation doesn't refresh data like expected
++ Create matches for swiss tournament double
++ Swiss tournament first round/matches opponents not correctly set
++ Swiss tournament doubles => Set default value from both players
++ Create couple for swiss tournament => Set level for couple
++ Restart tournament => cleanup doubles table (only for full restart with players cleanup)
++ next round and create matches => table empty need refresh
++ View/Edit couple infos
+- Install requires a default contact user
+
+TODOs(-) / DONE(+)
++ Restrict available players list for a club tournament
++ Tournament Edit
++ Tournament Datetime + Localization
++ Display nbr players / tournament
++ Remove tournament feature
++ Restrict players list depending of tournament typ (Men vs Women vs Mixte)
++ Tournament selector
++ Import/Export features
++ Option to quickly reset a tournament
++ Debug mode
++ Backend option to view matches for a specified round
++ List of matches for a player for a tournament
+- Player statistiques (with all matches/tournament)
++ Player pictures
+- Player frontend view
+- Tournament KO System (v2)
+- Tournament League (v2)
+- Form validator (v2)
+- Limit nbr players / tournament in free version (v2)
++ Function to get tournament typ: simple or double => Session values
++ Match view Live scoring
++ Help to set mixed couples
+
+
+DEV INFOS
++ Js translations defined in bad-tournament.php:bvg_head_javascript_object(): Callable with bvg_tournament_constants.XXXXXXX
++ Customize shortcodes css with your_theme/bad-tournament.css file
+Tournament types:
+$tournament_typ_array = array(
+    1 => __('Simple Men', 'bad-tournament'),
+    2 => __('Simple Women', 'bad-tournament'),
+    3 => __('Double Men', 'bad-tournament'),
+    4 => __('Double Women', 'bad-tournament'),
+    5 => __('Mixte', 'bad-tournament'),
+    6 => __('Simple Free', 'bad-tournament'),
+    7 => __('Double Free', 'bad-tournament')
+
+);
+
+Tournament systems:
+$t_system = array(
+    0 => '-',
+    1 => __('Swiss System', 'bad-tournament'),
+    2 => __('League', 'bad-tournament'),
+    3 => __('KO System', 'bad-tournament'),
+    4 => __('Grinding tournament', 'bad-tournament')
+);

@@ -1,0 +1,605 @@
+# Copyright (C) 2018 bad-tournament
+# This file is distributed under the same license as the bad-tournament package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bad-tournament\n"
+"Report-Msgid-Bugs-To: http://etalkers.org\n"
+"POT-Creation-Date: 2018-01-19 13:20+0100\n"
+"PO-Revision-Date: 2018-01-19 13:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: Laurent Dorier <lolo_irie@etalkers.org>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/action/add-clubs.php:23
+msgid "New club added..."
+msgstr "Neuer Verein hinzugefügt...."
+
+#: admin/action/add-existing-players.php:149
+msgid "Player(s) now inactive."
+msgstr "Spieler sind nun inaktiv."
+
+#: admin/action/add-existing-players.php:242
+msgid "Player(s) added to the current tournament..."
+msgstr "Spiele zum aktuellen Turnier hinzugefügt...."
+
+#: admin/action/add-players.php:31
+msgid "New player added..."
+msgstr "Neuer Spieler hinzugefügt...."
+
+#: admin/action/add-players.php:41
+msgid "Player added for the current tournament"
+msgstr "Spieler zum aktuellen Turnier hinzugefügt"
+
+#: admin/action/add-players.php:51
+msgid "Player added as contact for this club"
+msgstr ""
+
+#: admin/action/club-set-default.php:15
+msgid "Club set now as default"
+msgstr ""
+
+#: admin/action/player-edit-field.php:46
+msgid "Player value \""
+msgstr "Spieler Wert \""
+
+#: admin/action/player-info.php:36
+msgid "ID: "
+msgstr ""
+
+#: admin/action/player-info.php:42
+msgid "Sex: "
+msgstr ""
+
+#: admin/action/player-info.php:44 admin/index_html/player-config.php:190
+#: bad-tournament.php:56
+msgid "Female"
+msgstr ""
+
+#: admin/action/player-info.php:44 admin/index_html/player-config.php:189
+#: bad-tournament.php:55
+msgid "Male"
+msgstr ""
+
+#: admin/action/player-info.php:44 admin/index_html/clubs.php:72
+#: admin/index_html/player-config.php:138
+#: shortcodes/sc_html/tournament-selector.php:16
+msgid "Choose..."
+msgstr ""
+
+#: admin/action/player-info.php:48
+msgid "Birthdate: "
+msgstr ""
+
+#: admin/action/player-info.php:56
+msgid "Level: "
+msgstr ""
+
+#: admin/action/player-remove-from-tournament.php:23
+msgid "Player removed of this tournament..."
+msgstr "Spieler zum aktuellen Turnier inaktiv gesetzt...."
+
+#: admin/action/tournament-select.php:89
+msgid "Tournament removed !"
+msgstr "Turnier gelöscht !"
+
+#: admin/action/tournament-select.php:121
+msgid "Tournament edited !"
+msgstr "Turnier aktualisiert !"
+
+#: admin/action/tournament-select.php:197
+msgid "New tournament"
+msgstr "Neuer Turnier"
+
+#: admin/action/tournament-select.php:205
+msgid "Selected tournament: "
+msgstr ""
+
+#: admin/index.php:14 admin/index_html/tournament-config.php:150
+#: shortcodes/sc_html/tournament-summary.php:56
+#: shortcodes/sc_html/tournament-summary.php:64
+msgid "Swiss System"
+msgstr ""
+
+#: admin/index.php:15
+msgid "League"
+msgstr ""
+
+#: admin/index.php:16
+msgid "KO System"
+msgstr ""
+
+#: admin/index.php:17
+msgid "Grinding tournament"
+msgstr "Schleiferturnier"
+
+#: admin/index.php:57
+msgid "No tournament yet"
+msgstr "Noch kein Turnier"
+
+#: admin/index_html/clubs.php:23
+msgid "Existing clubs"
+msgstr ""
+
+#: admin/index_html/clubs.php:41
+msgid "Name:"
+msgstr ""
+
+#: admin/index_html/clubs.php:44
+msgid "Name"
+msgstr ""
+
+#: admin/index_html/clubs.php:50
+msgid "Club ID:"
+msgstr "Verein ID:"
+
+#: admin/index_html/clubs.php:53 admin/index_html/player-config.php:164
+msgid "XXXXXXXXX"
+msgstr ""
+
+#: admin/index_html/clubs.php:59
+msgid "Club URL:"
+msgstr ""
+
+#: admin/index_html/clubs.php:62
+msgid "https://"
+msgstr ""
+
+#: admin/index_html/clubs.php:68
+msgid "Contact:"
+msgstr ""
+
+#: admin/index_html/clubs.php:82
+msgid "Set as default:"
+msgstr ""
+
+#: admin/index_html/clubs.php:91
+msgid "Add club"
+msgstr ""
+
+#: admin/index_html/header.php:13
+msgid "Tournament"
+msgstr "Turnier"
+
+#: admin/index_html/header.php:17 bad-tournament.php:76
+msgid "Clubs"
+msgstr "Vereine"
+
+#: admin/index_html/header.php:21 bad-tournament.php:77
+msgid "Players"
+msgstr "Spieler"
+
+#: admin/index_html/header.php:25 bad-tournament.php:78
+msgid "Table"
+msgstr "Tabelle"
+
+#: admin/index_html/header.php:29 admin/index_html/matches.php:207
+#: bad-tournament.php:79
+msgid "Matches"
+msgstr "Spiele"
+
+#: admin/index_html/header.php:47
+msgid "Round"
+msgstr "Rund"
+
+#: admin/index_html/header.php:65
+msgid "Players: "
+msgstr "Spieler: "
+
+#: admin/index_html/header.php:67
+msgid "Matches played: "
+msgstr "Spiele gespielt: "
+
+#: admin/index_html/header.php:70
+msgid "Sets to win:"
+msgstr "Gewinnsätze:"
+
+#: admin/index_html/header.php:70 admin/index_html/tournament-config.php:169
+#: shortcodes/sc_html/tournament-summary.php:82
+msgid "Points/Set:"
+msgstr "Punkt/Satz:"
+
+#: admin/index_html/header.php:70
+msgid "Max. points per set:"
+msgstr "Max Punkte pro Satz:"
+
+#: admin/index_html/header.php:74
+msgid "You need to create a new tournament or select an existing tournament"
+msgstr ""
+"Sie müssen ein neues Turnier erstellen oder ein bestehendes Turnier auswählen"
+
+#: admin/index_html/header.php:76
+msgid "You need to create your first tournament"
+msgstr "Sie müssen Ihr erstes Turnier erstellen"
+
+#: admin/index_html/matches.php:117
+msgid "Match"
+msgstr "Spiel"
+
+#: admin/index_html/matches.php:148 admin/index_html/matches.php:183
+msgid "Winner"
+msgstr ""
+
+#: admin/index_html/matches.php:189
+msgid "Update match"
+msgstr ""
+
+#: admin/index_html/matches.php:202
+msgid "Regenerate matches"
+msgstr ""
+
+#: admin/index_html/matches.php:206 admin/index_html/tournament-config.php:209
+#: admin/index_html/tournament-table.php:101
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/index_html/matches.php:208
+msgid "Matches only for 3rd round"
+msgstr ""
+
+#: admin/index_html/matches.php:209
+msgid "Matches only for the current round"
+msgstr ""
+
+#: admin/index_html/matches.php:214
+msgid "Create matches"
+msgstr ""
+
+#: admin/index_html/player-config.php:46
+msgid "Player(s):"
+msgstr "Spieler:"
+
+#: admin/index_html/player-config.php:83
+msgid "Add player(s) to the tournament"
+msgstr "Spieler zum aktuellen Turnier hinzugefügt"
+
+#: admin/index_html/player-config.php:84
+msgid "Add all players"
+msgstr ""
+
+#: admin/index_html/player-config.php:85
+msgid "Remove all players for this Tournament"
+msgstr ""
+
+#: admin/index_html/player-config.php:86
+msgid "Set player(s) as inactive"
+msgstr "Spieler als inaktiv"
+
+#: admin/index_html/player-config.php:105
+msgid "Firstname:"
+msgstr ""
+
+#: admin/index_html/player-config.php:108
+msgid "Firstname"
+msgstr ""
+
+#: admin/index_html/player-config.php:114
+msgid "Lastname:"
+msgstr ""
+
+#: admin/index_html/player-config.php:117
+msgid "Lastname"
+msgstr ""
+
+#: admin/index_html/player-config.php:134
+msgid "Club:"
+msgstr "Verein:"
+
+#: admin/index_html/player-config.php:152
+msgid "Set as club contact:"
+msgstr ""
+
+#: admin/index_html/player-config.php:161
+msgid "Player ID:"
+msgstr "Spieler ID:"
+
+#: admin/index_html/player-config.php:170
+msgid "Birthdate:"
+msgstr ""
+
+#: admin/index_html/player-config.php:173
+msgid "DD/MM/YYYY"
+msgstr ""
+
+#: admin/index_html/player-config.php:185
+msgid "Sex:"
+msgstr ""
+
+#: admin/index_html/player-config.php:189
+msgid "Man"
+msgstr ""
+
+#: admin/index_html/player-config.php:190
+msgid "Woman"
+msgstr ""
+
+#: admin/index_html/player-config.php:197
+msgid "Value (for swiss system):"
+msgstr ""
+
+#: admin/index_html/player-config.php:200
+#: shortcodes/sc_html/tournament-table.php:35
+msgid "Points"
+msgstr "Punkte"
+
+#: admin/index_html/player-config.php:212
+msgid "Add player to the tournament"
+msgstr "Spieler zum aktuellen Turnier hinzugefügt"
+
+#: admin/index_html/tournament-config.php:21
+msgid "Choose tournament:"
+msgstr "Turnier auswählen:"
+
+#: admin/index_html/tournament-config.php:25
+#: admin/index_html/tournament-config.php:56
+msgid "Choose"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:43
+msgid "Choose tournament"
+msgstr "Turnier auswählen"
+
+#: admin/index_html/tournament-config.php:44
+msgid "Remove tournament"
+msgstr "Turnier löschen"
+
+#: admin/index_html/tournament-config.php:52
+msgid "Parent tournament:"
+msgstr "Hauptturnier:"
+
+#: admin/index_html/tournament-config.php:57
+msgid "No parent"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:67
+msgid "Tournament name:"
+msgstr "Turniername:"
+
+#: admin/index_html/tournament-config.php:70
+msgid "Tournament Name"
+msgstr "Turniername"
+
+#: admin/index_html/tournament-config.php:93
+msgid "Tournament logo:"
+msgstr "Turnier Logo:"
+
+#: admin/index_html/tournament-config.php:99
+msgid "Choose image"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:102
+msgid "or use external URL:"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:109
+msgid "Localization:"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:112
+msgid "Localization"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:118
+#: shortcodes/sc_html/tournament-summary.php:92
+msgid "Date:"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:121
+msgid "from..."
+msgstr ""
+
+#: admin/index_html/tournament-config.php:122
+msgid "...to"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:129
+msgid "Tournament Typ   :"
+msgstr "Turniertyp:"
+
+#: admin/index_html/tournament-config.php:133
+msgid "Simple Men"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:134
+msgid "Simple Women"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:135
+msgid "Double Men"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:136
+msgid "Double Women"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:137
+msgid "Mixte"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:138
+msgid "Simple Free"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:139
+msgid "Double Free"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:146
+msgid "Tournament System:"
+msgstr "Turnier System:"
+
+#: admin/index_html/tournament-config.php:153
+#: shortcodes/sc_html/tournament-summary.php:60
+msgid "Grinding Tournament"
+msgstr "Schleiferturnier"
+
+#: admin/index_html/tournament-config.php:160
+#: shortcodes/sc_html/tournament-summary.php:77
+msgid "Nb sets to win:"
+msgstr "Gewinnsätze:"
+
+#: admin/index_html/tournament-config.php:178
+#: shortcodes/sc_html/tournament-summary.php:87
+msgid "Max points per set:"
+msgstr "Max Punkte pro Satz:"
+
+#: admin/index_html/tournament-config.php:187
+msgid "Club restriction:"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:191
+msgid "Open"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:201
+msgid "Create tournament"
+msgstr "Turnier anlegen"
+
+#: admin/index_html/tournament-config.php:202
+msgid "Edit tournament"
+msgstr "Turnier editieren"
+
+#: admin/index_html/tournament-config.php:210
+msgid "Tournaments selector for all tournaments"
+msgstr "Turnier Auswahl mit allen Turniere"
+
+#: admin/index_html/tournament-config.php:211
+msgid "Tournaments selector for a defined group"
+msgstr ""
+
+#: admin/index_html/tournament-config.php:212
+msgid "Tournament summary"
+msgstr "Turnier Beschreibung"
+
+#: admin/index_html/tournament-table.php:20
+#: shortcodes/sc_html/tournament-table.php:20
+msgid "Player"
+msgstr "Spieler"
+
+#: admin/index_html/tournament-table.php:23
+#: shortcodes/sc_html/tournament-table.php:23
+msgid "Games"
+msgstr ""
+
+#: admin/index_html/tournament-table.php:26
+msgid "W"
+msgstr ""
+
+#: admin/index_html/tournament-table.php:29
+#: shortcodes/sc_html/tournament-table.php:29
+msgid "D"
+msgstr ""
+
+#: admin/index_html/tournament-table.php:32
+#: shortcodes/sc_html/tournament-table.php:32
+msgid "L"
+msgstr ""
+
+#: admin/index_html/tournament-table.php:35
+msgid "Main Points"
+msgstr ""
+
+#: admin/index_html/tournament-table.php:38
+#: shortcodes/sc_html/tournament-table.php:38
+msgid "Sets"
+msgstr ""
+
+#: admin/index_html/tournament-table.php:41
+msgid "Total points"
+msgstr ""
+
+#: admin/index_html/tournament-table.php:98
+msgid "Next round"
+msgstr ""
+
+#: admin/index_html/tournament-table.php:99
+msgid "Next round and create matches"
+msgstr ""
+
+#: admin/index_html/tournament-table.php:102
+msgid "Full table"
+msgstr ""
+
+#: admin/index_html/tournament-table.php:103
+msgid "Table with only first XX players"
+msgstr ""
+
+#: admin/install.php:22
+msgid "Plugin Bad Tournament installed !"
+msgstr ""
+
+#: admin/install.php:37
+msgid ""
+"Plugin Bad Tournament updated with following versions. Database "
+"modifications:"
+msgstr ""
+
+#: admin/install.php:52
+msgid "ERROR: function "
+msgstr ""
+
+#: admin/install.php:230
+msgid "Version 1.0.1: Add tournament logo"
+msgstr ""
+
+#: admin/install.php:236
+msgid "Version 1.0.2: No database modification"
+msgstr ""
+
+#: admin/install.php:242
+msgid "Version 1.1: No database modification"
+msgstr ""
+
+#: bad-tournament.php:57
+msgid "Are you sure you want to remove this tournament ?"
+msgstr ""
+
+#: bad-tournament.php:67
+msgid "Bad Tournament"
+msgstr "Bad Tournament"
+
+#: bad-tournament.php:111
+msgid "Save now ?.."
+msgstr ""
+
+#: bad-tournament.php:132
+msgid "You are not allowed to access here..."
+msgstr ""
+
+#: shortcodes/sc_html/tournament-summary.php:46
+msgid "Tournament restricted to players from:"
+msgstr ""
+
+#: shortcodes/sc_html/tournament-summary.php:53
+msgid "System: "
+msgstr ""
+
+#: shortcodes/sc_html/tournament-summary.php:72
+msgid "Tournament typ:"
+msgstr "Turniertyp:"
+
+#: shortcodes/sc_html/tournament-summary.php:103
+msgid "Where: "
+msgstr ""
+
+#: shortcodes/sc_html/tournament-table.php:26
+msgid "V"
+msgstr ""
+
+#: shortcodes/sc_html/tournament-table.php:41
+msgid "Total Points"
+msgstr ""
+
+#~ msgid "Player %1$d %2$d restored for the current tournament..."
+#~ msgstr "Spieler %1$d %2$d wieder aktiv für das aktuelle Turnier...."

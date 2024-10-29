@@ -1,0 +1,195 @@
+/* Summary */
+#tournament_summary{
+    text-align: center;
+}
+#tournament_summary div{
+    text-align: left;
+}
+#tournament_summary_title{
+    margin: 10px 0;
+    color: #2dff2a;
+    font-weight: bold;
+    font-size: 36px;
+}
+#tournament_summary_logo{
+    min-width: 120px;
+    min-height: 120px;
+    display: inline-block;
+    margin: auto;
+    padding: 4px;
+    background-color: rgba( 255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center !important;
+    line-height: 120px;
+}
+
+html, body{
+    overflow: auto;
+}
+hr{
+    clear: both;
+}
+#bvg_admin_msg{
+
+    border: 2px solid #c00;
+
+    font-weight: bold;
+    color: #c00;
+}
+.admin_block_label{
+    clear: both;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+label{
+    clear: left;
+    display: block;
+    float: left;
+    padding: 5px;
+    width: 80px;
+    margin-top: 4px;
+    margin-right: 8px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    color: #c00;
+}
+input, select{
+    float: left;
+    margin-top: 4px;
+}
+input[type=number]{
+    min-width: 50px;
+}
+
+ul.table{
+    width: 100%;
+}
+ul.table span{
+    display: inline-block;
+}
+.table_header span{
+    min-width: 60px;
+    padding: 3px;
+    border-bottom: 1px solid #777;
+    font-weight: bold;
+}
+.table_header span.pl_name{
+    width: 265px !important;
+}
+.table_row span{
+    min-width: 60px;
+    padding: 3px;
+    font-weight: normal;
+}
+.table span.pl_rang{
+    width: 40px;
+}
+.table span.pl_name{
+    width: 200px;
+}
+
+input.set_score, input.match_winner{
+    float: none;
+    width: 30px;
+}
+input.match_winner{
+    width: 60px;
+}
+select.player_name, input.player_name{
+    background-color: #fffa90;
+    color: #000;
+}
+select.player_name.loser, input.player_name.loser, div.loser{
+    border: 2px dashed transparent;
+    color: #fff;
+}
+select.player_name.winner, input.player_name.winner, div.winner{
+    border: 2px dashed #adff2f;
+    border-radius: 8px;
+}
+
+.radio_block label{
+    border: 0;
+    float: none;
+    display: inline;
+}
+.radio_block span {
+    float: left;
+    display: inline-block;
+    max-width: 250px;
+}
+
+.admin_block ul{
+    margin: 0;
+}
+
+.admin_block li{
+    list-style: none;
+    margin-left: 0 !important;
+}
+
+.admin_block li:hover{
+    background-color: rgba( 255, 255, 255, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.round_select_div{
+    height: 30px;
+    margin-bottom: 15px;
+}
+.match_row{
+    border-bottom: 2px solid #fff;
+    margin-bottom: 30px;
+}
+.match_round_header{
+    font-weight: bold;
+}
+.match_row1, .match_row2{
+    display: block;
+    clear: both;
+}
+.match_row2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.match_pl1_name, .match_pl1_score, .match_pl2_name, .match_pl2_score{
+    display: inline;
+    float: left;
+    margin-left: 15px;
+}
+.match_pl1_name, .match_pl2_name{
+    min-width: 200px;
+    padding-left: 5px;
+}
+.match_pl1_name, .match_pl2_name{
+    min-width: 400px;
+}
+.match_pl1_score, .match_pl2_score{
+    min-width: 150px;
+    max-width: 300px;
+}
+.set_score{
+    display: inline-block;
+    width: 30px;
+    margin-right: 8px;
+    padding-left: 4px;
+    border-left: 0;
+    text-align: center;
+}
+.set_score ~ .set_score {
+    border-left: 1px dashed #ddd;
+}
+#round_select{
+    float: none;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+}
+#round_select option{
+    background-color: #115d9e;
+}

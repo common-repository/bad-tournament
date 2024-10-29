@@ -1,0 +1,581 @@
+nav#main_nav{
+    position: fixed;
+    top: 60px;
+    margin-bottom: 10px;
+}
+nav#main_nav.transparent{
+    opacity: 0.1;
+
+    -webkit-transition: opacityr 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+nav#main_nav.transparent:hover{
+    opacity: 1;
+
+    -webkit-transition: opacityr 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+nav#main_nav ul{
+    display: flex;
+    width: fit-content;
+    height: 28px;
+    margin: 0 !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding: 0 8px;
+
+    background: #ddd;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+
+    line-height: 28px;
+}
+nav#main_nav li{
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 16px;
+    padding-right: 3px;
+    padding-left: 3px;
+
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav#main_nav li:hover{
+    background-color: #666;
+    color: #fff;
+}
+nav#main_nav li.active{
+    background-color: #000;
+    color: #fff;
+    -webkit-transition: background-color 2s;
+    -moz-transition: background-color 2s;
+    -ms-transition: background-color 2s;
+    -o-transition: background-color 2s;
+    transition: background-color 2s;
+}
+#bad_tournament_maintitle{
+    margin-top: 75px;
+}
+hr{
+    clear: both;
+}
+#bvg_admin_msg, .badt_alert{
+    margin-top: 80px;
+    margin-bottom: -50px;
+    padding: 15px;
+    position: relative;
+    padding-left: 24px;
+
+    background-color: #ddd;
+    background-image: url('../icons/bad-tournament-warning-icon.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+
+    border-left: 4px solid #c00;
+
+    font-weight: bold;
+    color: #c00;
+}
+.badt_alert{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#bvg_admin_msg_close, .plus_icon{
+    width: 20px;
+    height: 20px;
+    float: right;
+
+    background-image: url('../icons/bad-tournament-close-icon.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    cursor: pointer;
+}
+.plus_icon{
+    margin: 10px 0 10px 0;
+    display: block;
+    float: left;
+    clear: both;
+
+    background-image: url('../icons/bad-tournament-plus-icon.png');
+}
+.admin_block, .admin_block_extended{
+    display: none;
+}
+.admin_block_extended{
+    float: left;
+    margin-top: 35px;
+    margin-left: -20px;
+}
+.admin_block_label{
+    clear: both;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+/*
+label{
+    clear: left;
+    display: block;
+    float: left;
+    padding: 5px;
+    width: 80px;
+    margin-top: 4px;
+    margin-right: 8px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    color: #c00;
+}
+*/
+input, select{
+    float: left;
+    margin-top: 4px;
+}
+input[type=text]{
+    width: 25em !important;
+}
+input[type=submit]{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type=submit].submit2, input[type=button].submit2 {
+    clear: none;
+    margin-left: 8px;
+}
+input[type=number]{
+    min-width: 50px;
+    width: 4em !important;
+}
+input[type=radio], input[type=checkbox]{
+    margin-top: 6px;
+    line-height: 24px;
+}
+.new_line{
+    clear: both;
+    padding-top: 15px;
+    display: block;
+}
+
+/* Tournament */
+#tournament_name{
+    width: 200px;
+}
+#tournament_edit{
+    display: none;
+    clear: none;
+}
+
+/* Table */
+ul.table{
+    width: 100%;
+}
+ul.table span{
+    display: inline-block;
+}
+.table_header span{
+    width: 60px;
+    padding: 3px;
+    border-bottom: 1px solid #777;
+    font-weight: bold;
+}
+.table_row{
+    width: 880px;
+}
+.table_row:hover{
+    background-color: rgba( 0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.table_row span{
+    width: 60px;
+    padding: 3px;
+    font-weight: normal;
+}
+.table_row .player_infos{
+    margin-top: 50px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+.table_row .player_infos span{
+    width: auto;
+    padding: 0;
+}
+.table span.pl_name{
+    min-width: 250px;
+    width: 350px;
+}
+.pl_name_pl1, .pl_name_pl2{
+    min-width: 200px;
+    width: 350px;
+    display: block;
+}
+.player_removed span.pl_name{
+    color: #fff;
+}
+
+/* Matches */
+input.set_score, input.match_winner{
+    float: none;
+    width: 30px;
+}
+input.match_winner{
+    width: 60px;
+    height: 28px;
+    margin: 4px 0 1px 8px !important;
+}
+select.player_name, input.player_name{
+    background-color: #fffa90;
+    color: #000;
+}
+select.player_name.loser, input.player_name.loser{
+    background-color: #c00;
+    color: #fff;
+}
+select.player_name.winner, input.player_name.winner{
+    background-color: #adff2f;
+    color: #000;
+}
+.radio_block{
+    display: inline-block;
+    float: left;
+    padding-top: 8px;
+}
+.radio_block label{
+    border: 0;
+    float: none;
+    display: inline;
+    margin-right: 32px;
+}
+.radio_block span {
+    float: left;
+    display: inline-block;
+    max-width: 250px;
+}
+.radio_block_vertical{
+    display: inline-block;
+    float: left;
+    padding-top: 8px;
+    height: 100%;
+    width: 100%;
+}
+.radio_block_vertical div{
+    margin-bottom: 12px;
+}
+.radio_block_vertical label{
+    border: 0;
+    float: none;
+    clear: right;
+    display: block;
+    margin-right: 32px;
+}
+.radio_block_vertical input[type=checkbox]{
+    float: left;
+    margin-top: 0;
+    height: 22px;
+}
+input.wp_style{
+    padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 100%;
+    outline: 0;
+    margin: 0 0 3px;
+    background-color: #fff;
+}
+.shortcode_bvg{
+    margin-bottom: 100px;
+}
+h1.topspace{
+    clear: both;
+    padding-top: 50px;
+}
+
+.pl_options{
+    float: right;
+}
+.pl_infos, .pl_remove{
+    float: right;
+    width: 14px;
+    height: 14px;
+
+    cursor: pointer;
+}
+.pl_remove{
+    margin-right: 10px;
+}
+.pl_infos_content{
+    max-width: 450px;
+    padding: 8px;
+    margin: auto;
+
+    background-color: #ffffff !important;
+
+    border: 2px solid #000;
+    border-radius: 8px;
+
+    color: #000;
+}
+.ui-tooltip.pl_infos_content{
+    //display: block;
+    //position: relative;
+    max-width: 450px;
+    max-height: 450px;
+    overflow: hidden;
+    opacity: 1 !important;
+    height: auto; !important;
+    max-height: auto !important;
+    background-color: #ffffff !important;
+    background-image: none;
+}
+.pl_tooltip_label{
+    float: left;
+    font-weight: bold;
+    width: 100%;
+}
+#matches_list_player{
+    margin-top: 15px;
+    border-top: 2px solid #fff;
+}
+.player_view{
+    font-weight: bold;
+}
+.match_row{
+    border-bottom: 2px solid #fff;
+    margin-bottom: 30px;
+}
+.match_round_header{
+    font-weight: bold;
+}
+.match_row1, .match_row2{
+    display: block;
+    clear: both;
+    min-height: 14px;
+}
+.match_row1:hover, .match_row2:hover{
+    background-color: #444;
+}
+.match_row2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.match_pl1_name, .match_pl1_score, .match_pl2_name, .match_pl2_score{
+    display: inline;
+    float: left;
+    margin-left: 15px;
+}
+.match_pl1_name, .match_pl2_name{
+    min-width: 200px;
+    padding-left: 5px;
+}
+.match_pl1_name, .match_pl2_name{
+    min-width: 400px;
+}
+.match_pl1_score, .match_pl2_score{
+    min-width: 150px;
+    max-width: 300px;
+}
+.set_score{
+    display: inline-block;
+    width: 30px;
+    margin-right: 8px;
+    padding-left: 4px;
+    border-left: 0;
+    text-align: center;
+    color: #c00;
+}
+.set_score ~ .set_score {
+    border-left: 1px dashed #ddd;
+}
+.set_score.set_win{
+    font-weight: bold;
+    color: #5e8c1c;
+}
+.label_row{
+    display: inline-block;
+    line-height: 32px;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+
+.label_row > span{
+    float: left;
+}
+
+#ajax_spinner_layer{
+    display: none;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    float: left;
+    line-height: 100%;
+
+    background-color: rgba( 0, 0, 0, 0.9);
+    background-image: url( '../icons/background_spinner_ldo.png' );
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    border-radius: 100%;
+
+    vertical-align: middle;
+    text-align: center;
+}
+#ajax_spinner_layer img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: inline-block;
+    margin:auto;
+}
+
+#ui-datepicker-div{
+    display: none;
+}
+
+.pl_edit_field{
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.edit_field_valid{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    margin: 0 2px;
+    vertical-align: middle;
+    float: left;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+/* Clubs */
+#existing_clubs_list{
+    max-height: 150px;
+    overflow: auto;
+}
+.clubs_name{
+    float: left;
+    clear: both;
+
+    line-height: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Players */
+#player_select{
+    height: 150px;
+}
+
+#players_list_select_couple option.notAllowed{
+    display: none;
+}
+
+#csv_view{
+    margin-top: 24px;
+    padding: 16px;
+    clear: both;
+    height: 300px;
+    overflow: auto;
+
+    border: 1px solid #000;
+}
+.player_inCouple_1{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Submenus */
+#badt_submenu{
+    display: none;
+    list-style: none;
+    position: absolute !important;
+    top: -1000em;
+    left: 160px !important;
+    overflow: visible;
+    word-wrap: break-word;
+}
+
+#toplevel_page_bad_tournament li.badt-menu-open:hover::after{
+    right: 0;
+    border: solid transparent;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-width: 8px;
+    top: 10px;
+    z-index: 10000;
+}
+#toplevel_page_bad_tournament #badt_submenu .wp-has-current-submenu .wp-submenu{
+    top: -47px !important;
+}
+#toplevel_page_bad_tournament a.wp-has-current-submenu::after {
+    right: 0;
+    border: 8px solid transparent;
+    border-right-color: transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #f1f1f1;
+    top: 50%;
+    margin-top: -8px;
+}
+#toplevel_page_bad_tournament li.wp-has-current-submenu.opensub:hover::after {
+    border-right-color: #655a6a;
+}
+#toplevel_page_bad_tournament .wp-submenu li.current a:hover{
+    color: #00b9eb;
+}
+
+#badt_debug_panel{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height-max: 600px;
+    top: 0;
+
+    background-color: #000;
+    border: 2px solid #f00;
+    color: #fff;
+    z-index: 10000;
+    overflow: auto;
+}
+.badt_debug_block{
+    margin-bottom: 4px;
+    border-bottom: 2px dashed #fff;
+    font-weight: normal;
+}
+.badt_debug_label{
+    margin-top: 8px;
+    font-weight: bold;
+    color: #f99;
+}
